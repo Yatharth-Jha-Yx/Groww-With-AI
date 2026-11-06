@@ -1,0 +1,16 @@
+# Secrets — never commit these
+.env
+*.env
+!.env.example
+
+# Personal financial data produced by the tool
+reports/*
+!reports/.gitkeep
+investor_profile.md
+instruments.csv
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
